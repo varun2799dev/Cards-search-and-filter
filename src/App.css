@@ -1,0 +1,51 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+} */
+.age, .gender, .country, .description{
+  
+  max-height: 0px;
+   overflow: hidden ;
+  transition: all 0.5s cubic-bezier(0,1,0,1);
+  }
+
+ 
+.accordion{
+  max-width: 500px;
+}
+.item{
+  background-color: lightgrey;
+  padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  
+}
+.Names{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-show{
+  height:auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.card-row{
+  border:2px solid grey;
+  border-radius: 8px;
+  background-color: #d0c3c3;
+}
